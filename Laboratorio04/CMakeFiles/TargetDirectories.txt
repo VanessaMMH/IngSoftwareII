@@ -1,0 +1,3 @@
+/home/ada/Documentos/3ro/B/IS2/Test/CMakeFiles/rebuild_cache.dir
+/home/ada/Documentos/3ro/B/IS2/Test/CMakeFiles/edit_cache.dir
+/home/ada/Documentos/3ro/B/IS2/Test/CMakeFiles/runTests.dir
