@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="5" thread-count="1" parallel="tests">
+    <test name="RadioButtonYes">
+        <groups>
+            <run>
+                <include name="CLICK"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Tests.TestNG.SuiteSample.RadioButtonYes"></class>
+        </classes>
+    </test>
+    <test name="RadioButtonImpressive">
+        <groups>
+            <run>
+                <include name="TITLE"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Tests.TestNG.SuiteSample.RadioButtonImpressive"></class>
+        </classes>
+    </test>
+
+</suite>
