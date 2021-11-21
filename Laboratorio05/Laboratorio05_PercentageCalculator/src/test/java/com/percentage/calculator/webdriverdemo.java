@@ -35,9 +35,6 @@ public class webdriverdemo {
 	}
 	
 
-
-
-
 	@Test
 	public void testGoogleOperations() {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -86,6 +83,7 @@ public class webdriverdemo {
 	      Assert.assertEquals(ExpectedResult_, result_);	
 	      
 	}
+	
 	
 	@After
 	public void tearDown() {
