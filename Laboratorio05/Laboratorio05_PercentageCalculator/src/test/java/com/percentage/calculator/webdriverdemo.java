@@ -25,6 +25,7 @@ public class webdriverdemo {
 		driver.manage().window().maximize();			 
 	}
 	
+	
 	@Test
 	public void testGoogleTitle() {
 		// Use assert to verify Title
@@ -33,6 +34,10 @@ public class webdriverdemo {
 		assertTrue(verifyTitle);		
 	}
 	
+
+
+
+
 	@Test
 	public void testGoogleOperations() {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
